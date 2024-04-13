@@ -1,32 +1,70 @@
-# File Upload Platform with Search Functionality
+# Getting Started with Create React App
 
-This project is a web-based file upload platform built using React. Users can upload files, which are then displayed in a table. A search bar allows users to search for specific file names, with search results dynamically highlighted in the displayed file names.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Upload files:** Users can upload files using a simple file input interface.
-- **File table:** Uploaded files are listed in a table, showing the file names and a count of total uploaded files.
-- **Search functionality:** A search bar enables users to search for files by name. Search results are dynamically highlighted within the file names displayed in the table.
-- **User-friendly interface:** The platform features a clean and intuitive user interface, making it easy for users to upload files and find the files they need.
+In the project directory, you can run:
 
-## Usage
+### `npm start`
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repository.git`
-2. Navigate to the project directory: `cd your-repository`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your web browser and go to `http://localhost:3000` to view the application.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies Used
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- React
-- JavaScript
-- CSS
+### `npm test`
 
-## Contributing
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or want to suggest improvements.
+### `npm run build`
 
-## License
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

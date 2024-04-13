@@ -1,0 +1,101 @@
+.write h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  color: aliceblue;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.fil{
+  background-color: white;
+  color: black;
+}
+.upload-box {
+  width: 30%;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.upload-box input[type="file"] {
+  display: none;
+}
+
+.upload-box label {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-box button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#fileName {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 805px) {
+  .center-box {
+    height: 80vh; /* Adjust height for smaller screens */
+  }
+
+  .upload-box {
+    width: 80%; /* Adjust width for smaller screens */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+}
+
+
+.file-table {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.searchtxt input{
+padding: 1rem;
+width: 30%;
+background-color: white;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 800;
+align-items: center;
+}
+
+.file-table table {
+  width: 50%;
+  border-collapse: collapse;
+  
+}
+
+.file-table th,
+.file-table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.file-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
